@@ -1,0 +1,39 @@
+Copyright (c) 2007 Salvador E. Tropea <salvador en inti gov ar>
+Copyright (c) 2007 Instituto Nacional de Tecnología Industrial
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+ 02111-1307, USA
+
+Nombre de la biblioteca: utils
+
+Uso:
+library utils;
+use utils.StdIO.all;
+use utils.Str.all;
+use utils.StdLib.all;
+use utils.Math.all;
+
+Dependencias: bakalint (Opcional)
+  Para los bancos de pruebas:
+              ghdl
+
+  Esto no es exactamente un core sino una colección de funciones y
+procedimientos útiles. La idea es evitar la repetición de estas funciones una
+y otra vez en cada core o testbench.
+
+  En doc/reference.html se encuentra la documentación de las funciones y
+procedimientos incluidos.
+
+
+

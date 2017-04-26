@@ -1,0 +1,389 @@
+<html>
+<head>
+<title>VHDL Utils</title>
+</head>
+<body>
+<H1>VHDL Utils</H1>
+
+This document describes the functions of the utils library.
+
+<p>
+
+This document applies to version 0.1.0 of the utils library.
+
+<p>
+
+
+
+<Menu>
+<li><a href="#Alphabetical List">Alphabetical list of functions</a>
+<li><a href="#Modules">List by modules</a>
+<li><a href="#Files">List by files</a>
+<li><a href="#Author">List by author</a>
+</Menu>
+
+
+
+<p><hr></p>
+<a name="Alphabetical List"></a>
+<H1>Alphabetical List</H1>
+
+<Menu>
+<li><a href="#outwrite [Procedure]">outwrite [Procedure]</a>
+<li><a href="#pad0r [Function]">pad0r [Function]</a>
+<li><a href="#read [Procedure]">read [Procedure]</a>
+<li><a href="#see_time [Procedure]">see_time [Procedure]</a>
+<li><a href="#str2sv [Procedure]">str2sv [Procedure]</a>
+<li><a href="#sv2char [Function]">sv2char [Function]</a>
+<li><a href="#sv2sint [Function]">sv2sint [Function]</a>
+<li><a href="#sv2uint [Function]">sv2uint [Function]</a>
+<li><a href="#write [Procedure]">write [Procedure]</a>
+</Menu>
+
+
+
+<p><hr></p>
+<a name="Modules"></a>
+<H1>Modules</H1>
+
+<Menu>
+</Menu>
+
+
+<p><hr></p>
+<a name="Files"></a>
+<H1>Files</H1>
+
+<Menu>
+<li><a href="#stdio_pkg.vhdl">stdio_pkg.vhdl</a>
+<li><a href="#stdlib_pkg.vhdl">stdlib_pkg.vhdl</a>
+<li><a href="#str_pkg.vhdl">str_pkg.vhdl</a>
+</Menu>
+
+
+<p><hr></p>
+<a name="stdio_pkg.vhdl"></a>
+<H1>stdio_pkg.vhdl</H1>
+
+
+
+<Menu>
+<li><a href="#outwrite [Procedure]">outwrite [Procedure]</a>
+<li><a href="#read [Procedure]">read [Procedure]</a>
+<li><a href="#see_time [Procedure]">see_time [Procedure]</a>
+<li><a href="#write [Procedure]">write [Procedure]</a>
+</Menu>
+
+
+
+<p><hr></p>
+<a name="stdlib_pkg.vhdl"></a>
+<H1>stdlib_pkg.vhdl</H1>
+
+
+
+<Menu>
+<li><a href="#sv2char [Function]">sv2char [Function]</a>
+<li><a href="#sv2sint [Function]">sv2sint [Function]</a>
+<li><a href="#sv2uint [Function]">sv2uint [Function]</a>
+</Menu>
+
+
+
+<p><hr></p>
+<a name="str_pkg.vhdl"></a>
+<H1>str_pkg.vhdl</H1>
+
+
+
+<Menu>
+<li><a href="#pad0r [Function]">pad0r [Function]</a>
+<li><a href="#str2sv [Procedure]">str2sv [Procedure]</a>
+</Menu>
+
+
+
+<p><hr></p>
+<a name="Author"></a>
+<H1>Author</H1>
+
+<Menu>
+<li><a href="#Rodrigo A. Melo">Rodrigo A. Melo</a>
+<li><a href="#Salvador E. Tropea">Salvador E. Tropea</a>
+</Menu>
+
+
+<p><hr></p>
+<a name="Rodrigo A. Melo"></a>
+<H1>Rodrigo A. Melo</H1>
+
+
+
+<Menu>
+<li><a href="#outwrite [Procedure]">outwrite [Procedure]</a>
+<li><a href="#read [Procedure]">read [Procedure]</a>
+<li><a href="#see_time [Procedure]">see_time [Procedure]</a>
+<li><a href="#sv2char [Function]">sv2char [Function]</a>
+</Menu>
+
+
+
+<p><hr></p>
+<a name="Salvador E. Tropea"></a>
+<H1>Salvador E. Tropea</H1>
+
+
+
+<Menu>
+<li><a href="#pad0r [Function]">pad0r [Function]</a>
+<li><a href="#str2sv [Procedure]">str2sv [Procedure]</a>
+<li><a href="#sv2sint [Function]">sv2sint [Function]</a>
+<li><a href="#sv2uint [Function]">sv2uint [Function]</a>
+<li><a href="#write [Procedure]">write [Procedure]</a>
+</Menu>
+
+
+
+
+
+<p><hr></p>
+<a name="write [Procedure]"></a>
+<center><Font Size=+2>write [Procedure]</Font> (stdio_pkg.vhdl 82)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ write [Procedure]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  A version of the textio's write function that can print a
+std_logic_vector data type.
+<p>
+
+
+
+
+<p><hr></p>
+<a name="read [Procedure]"></a>
+<center><Font Size=+2>read [Procedure]</Font> (stdio_pkg.vhdl 100)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ read [Procedure]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  A version of the textio's read function that can read a
+std_logic_vector data type.
+<p>
+
+
+
+
+<p><hr></p>
+<a name="outwrite [Procedure]"></a>
+<center><Font Size=+2>outwrite [Procedure]</Font> (stdio_pkg.vhdl 117)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ outwrite [Procedure]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  Writes a string to the standard output.
+<p>
+
+
+
+
+<p><hr></p>
+<a name="see_time [Procedure]"></a>
+<center><Font Size=+2>see_time [Procedure]</Font> (stdio_pkg.vhdl 131)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ see_time [Procedure]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  Writes a string and a time to the standard output.
+<p>
+
+
+
+
+<p><hr></p>
+<a name="sv2sint [Function]"></a>
+<center><Font Size=+2>sv2sint [Function]</Font> (stdlib_pkg.vhdl 75)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ sv2sint [Function]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  Converts a std_logic_vector (<b>v</b>) to integer assuming that the
+argument represents a signed value (2's complement).
+<p>
+
+
+<Font Size=+1><u>Return Value</u></Font><p>
+
+integer representation.
+<p>
+
+
+
+<p><hr></p>
+<a name="sv2uint [Function]"></a>
+<center><Font Size=+2>sv2uint [Function]</Font> (stdlib_pkg.vhdl 89)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ sv2uint [Function]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  Converts a std_logic_vector (<b>v</b>) to integer assuming that the
+argument represents a unsigned value.
+<p>
+
+
+<Font Size=+1><u>Return Value</u></Font><p>
+
+integer representation.
+<p>
+
+
+
+<p><hr></p>
+<a name="sv2char [Function]"></a>
+<center><Font Size=+2>sv2char [Function]</Font> (stdlib_pkg.vhdl 103)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ sv2char [Function]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  Converts a std_logic_vector (<b>v</b>) to a character assuming that the
+argument represents a unsigned value.
+<p>
+
+
+<Font Size=+1><u>Return Value</u></Font><p>
+
+character representation.
+<p>
+
+
+
+<p><hr></p>
+<a name="str2sv [Procedure]"></a>
+<center><Font Size=+2>str2sv [Procedure]</Font> (str_pkg.vhdl 79)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ str2sv [Procedure]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  String to std_logic_vector. This procedure takes a string <b>s</b> and
+fills the std_logic_vector <b>sv</b>. When the strings are from an input
+file and you want to report the line where an error was detected use the
+<b>line_n</b> argument. This procedure aborts execution if the string and
+std_logic_vector doesn't have the same length or if the it finds a
+character that isn't 0 or 1.
+<p>
+
+
+
+
+<p><hr></p>
+<a name="pad0r [Function]"></a>
+<center><Font Size=+2>pad0r [Function]</Font> (str_pkg.vhdl 114)</center>
+
+<Font Size=+1><u>Name and type</u></Font><p>
+
+
+
+<pre>
+ pad0r [Function]
+</pre>
+
+
+
+
+<Font Size=+1><u>Description</u></Font><p>
+
+  Adds as many 0s to the right of <b>v</b> to obtain the desired <b>size</b>
+If the size of the input is bigger than the specified this function
+returns the MSBs.
+<p>
+
+The vectors must be in downto order and use 0 as right bound.
+<p>
+
+
+
+
+
+
+</body>
+</html>
